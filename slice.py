@@ -1,10 +1,4 @@
-'''
-List Slices
-Write a program that takes a string as input and outputs the last character of that string.
+x = [2,4,5,7,4]
 
-str = input()
-print(str[-1])
-
-'''
-names = "names"
-print(names[1:-1])
+y = x.index(4)
+print(y)
