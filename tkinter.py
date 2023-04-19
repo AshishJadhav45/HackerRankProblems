@@ -1,19 +1,7 @@
-import tkinter as tk
+x = 5
 
-class MyGUI:
-    def __init__(self, master):
-        self.master = master
-        master.title("My GUI")
+#x += 1
 
-        self.label = tk.Label(master, text="Hello, World!")
-        self.label.pack()
+x += 2 #increment
 
-        self.button = tk.Button(master, text="Click me!", command=self.change_text)
-        self.button.pack()
-
-    def change_text(self):
-        self.label.config(text="Button clicked!")
-
-root = tk.Tk()
-my_gui = MyGUI(root)
-root.mainloop()
+print(x)
